@@ -61,5 +61,14 @@ https://www.youtube.com/watch?v=uUGHF0dM6GA
     [class *='col-'] {
        width: 100%;
     }
+    .hide-on-mobile { 
+        display: none; 
+    } 
 }
+
+@media (min-width:576px){ 
+    .hide-on-desktop { 
+        display: none; 
+    } 
+} 
 /** End of Grid System **/
