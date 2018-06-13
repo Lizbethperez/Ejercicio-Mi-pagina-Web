@@ -22,7 +22,7 @@ header{
     text-align: left;
 }
 nav{
-    height: 56px;
+    height: 65px;
     background-color: #00bcd4;
     text-align: center;
     color:white;
@@ -31,7 +31,7 @@ nav{
     background-color: rgba(0,0,0,0.6);
     padding: 7em;
 }
-.burger{
+.menu-burger{
     float: right;
     margin-top: 1px;
     margin-right: 15px;
@@ -53,12 +53,14 @@ nav{
 .menu li { 
     display:inline-block; 
     height:56px; 
-    padding:20px 10px; 
+    padding:20px 12px; 
 } 
  .menu a { 
     color:white; 
     text-decoration: none; 
     font-size: 18px;
+    font-family: 'Righteous', cursive;
+    font-weight: bolder;
 } 
 .menu a:hover { 
     color:#fff;
@@ -70,7 +72,9 @@ nav{
 /*FORMATOS PARA LA SECCION ACERCA DE NOSOTROS*/
 .format-text{
     font-family: 'Acme', sans-serif;
+    font-size: 19px;
     text-align: justify;
+    line-height: 1.6;
 }
 
 .format-link{
@@ -87,8 +91,15 @@ section img{
     height: 35vh;
     border-radius: 10%;
  }
+ .format-video{
+     height: 50vh;
+     width: 100%;
+ }
  
- /*FORMATOS PARA LOS TITULOS DE LA SECCION DE VIAJES*/
+ /*FORMATOS PARA LOS TITULOS DE LA SECCION DE DESTINOS*/
+ .format-title-trips{
+     text-align: center;
+ }
 .format-trips{
     font-size: 20px;
     font-weight: bolder;
@@ -96,6 +107,11 @@ section img{
     font-family: 'Righteous', cursive;
     
 }
+
+.format-links-trips{
+    margin-left: 55px;
+}
+
 /*FORMATOS DEL FOOTER*/
 footer{
     height: 56px;
@@ -104,3 +120,17 @@ footer{
     color:white;
     padding:2em;
 }
+
+/*formatos Seccion de Contacto*/
+.format-contact{
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+
+}
+/*fomatos generales diseño */
+.format-image:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+  
+  }
